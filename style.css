@@ -1,0 +1,20 @@
+form{
+    width: 60%;
+    margin: 0 auto;
+}
+fieldset{
+    border-radius: 20px;
+}
+div{
+    margin: 20px;
+}
+legend{
+    font-size: 25px;
+    font-weight: 600;
+}
+input, textarea{
+    border-radius: 5px;
+}
+.button{
+    padding: 5px 20px;
+}

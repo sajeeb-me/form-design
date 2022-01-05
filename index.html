@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Submit Your Form</h1>
+    <form action="" method="">
+        <fieldset>
+            <legend>Fill up the form:</legend>
+            <div>
+                <label for="fname">First Name</label> <br>
+                <input type="text" id="fname" name="fname"> <br> <br>
+                <label for="lname">Last Name</label> <br>
+                <input type="text" id="lname" name="lname"> <br> <br>
+                <label for="email">Email</label> <br>
+                <input type="email" id="email" name="email"> <br> <br>
+                <label for="pass">Password</label> <br>
+                <input type="password" id="pass" name="pass"> <br> <br>
+                <label for="phone">Contact Number</label> <br>
+                <input type="tel" name="phone" id="phone"> <br> <br>
+                <label for="dob">Date of Birth</label> <br>
+                <input type="date" id="dob" name="dob"> <br> <br>
+                <label for="gender">Gender</label> <br>
+                <input type="radio" id="male" name="gender" value="Male">
+                <label for="male">Male</label> <br>
+                <input type="radio" id="female" name="gender" value="Female">
+                <label for="female">Female</label> <br> <br>
+                <label for="country">Country</label> <br>
+                <select name="country" id="country">
+                    <option value="usa">USA</option>
+                    <option value="uk">UK</option>
+                    <option value="bangladesh" selected>Bangladesh</option>
+                    <option value="canada">Canada</option>
+                </select> <br> <br>
+                <label for="cv">Submit your CV</label> <br>
+                <input type="file" name="cv" id="cv"> <br> <br>
+                <label for="comment">Drop your Comment</label> <br>
+                <textarea name="comment" id="" cols="30" rows="10"></textarea> <br> <br>
+                <input class="button" type="submit" value="Submit">
+                <input class="button" type="reset" value="Reset">
+            </div>
+        </fieldset>
+    </form>
+</body>
+
+</html>
